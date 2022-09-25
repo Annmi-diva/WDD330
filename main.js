@@ -1,6 +1,6 @@
 var weekList = [
     {label:"Week 1", url: "https://annmi-diva.github.io/WDD330/week 1/index.html"},
-    {label:"Week 2", url: ""},
+    {label:"Week 2", url: "https://annmi-diva.github.io/WDD330/week 2/index.html"},
     {label:"Week 3", url: ""},
     {label:"Week 4", url: ""},
     {label:"Week 5", url: ""},
