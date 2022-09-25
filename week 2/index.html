@@ -3,22 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD 330 portfolio</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <title>WDD 330 portfolio - W2</title>
+    <link rel="stylesheet" href="./Istyles2.css" />
   </head>
   <body>
     <h1>WDD 330 portfolio</h1>
-    <h2>Week01</h2>
+    <h2>Week02</h2>
+
     <ul>
-      <li>
 
-        <h3>Questions:</h3>
-        <ol>
-          <li>
+      <li><a href="TeamA01.html">Team Activity W01</a></li>
 
-          </li>
-        </ol>
-      </li>
+      <li><h3>Ch2: Programing Basics</h3></li>
+
+        <ul>
+
+          <li><a href="quizNinja.html">Quiz Ninja Project 1</a></li>
+
+          <li>Some thinks I want to remember about this chapter:</li>
+
+            <ul>
+              <li>The following words are reserved for use by the JavaScript language and cannot be used to name variables 
+                  (or function parameters and object properties that appear in later chapters): abstract, await, 
+                  boolean, break, byte, case, catch, char, class, const, continue, debugger,
+                  default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, 
+                  function, goto, if, implements, import, in instanceof, int, interface, let, long, native, new, null, 
+                  package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient,
+                  true, try, typeof, var, volatile, void, while, with, yield, undefined, NaN, Infinity.</li>
+
+              <li>JavaScript has seven different data types. Six of them are primitive data types and are listed below: String, 
+                  Symbol (The symbol primitive data type was only introduced in ES6.), Number, Boolean, Undefined, Null. 
+                  Any value that isn't one of the primitive data types listed above is an object. 
+                  These include arrays, functions and object literals.</li>
+
+              <li>From ES6 onwards, JavaScript uses the keywords “const” and “let” to declare variables. 
+                  The keyword “const” is used when the variable will not be reassigned to another value, 
+                  whereas “let” is used if the variable might be reassigned later in the program.</li>
+
+              <li>If the variable references a non-primitive data type, such as an array, function or object, then using “const” will not make it immutable. 
+                  This means the underlying data inside the object can change (known as mutating the object). </li>
+
+              <li>Template literals use the backtick character, `, to delaminate the string. hey also allow interpolation of JavaScript code. 
+                  This means that a JavaScript expression can be inserted inside a string and the result will be displayed. 
+                  The JavaScript expression is placed inside the curly braces with a $ character in front of them. 
+                  This is then evaluated, and the result is returned in the string output. 
+                  Template literals can also contain line breaks, which are all converted into a Line Feed (\n).</li>
+            </ul>
+        </ul>  
+
+      <li><h3>Ch3: Arrays, Logic, and Loops</h3></li>
+
+        <ul>
+
+          <li><a href="quizNinja2.html">Quiz Ninja Project 2</a></li>
+
+          <li>Some thinks I want to remember about this chapter:</li>
+
+          <ul>
+            <li>To place a string inside the first element of an array, we can assign it to element 0. 
+                Each item in an array can be treated like a variable. 
+                You can change the value using the assignment operator =. 
+                We can add more values to our array by assigning them to other indices, meaning instead of 0, we use 1,2,3, etc. 
+                We can use the index notation to add new items to any position in the array.</li>
+              
+            <li>The delete operator will remove an item from an array, 
+                we need to be carful thought when you delete an entry it deletes the variable name but not the position, 
+                in that position you will find the legend undefined.</li>
+
+            <li>Destructuring Arrays allows us to assign multiple values at the same time, using arrays.</li>
+
+            <li>A set is a data structure that represents a collection of unique values, so it cannot include any duplicate values. 
+                They are similar in concept to a mathematical set, although (for the time being at least) 
+                they don't contain mathematical set operations such as union, intersection and product. 
+                Sets offer a useful way to keep track of data without having to check if any values have been duplicated. 
+                It's also quick and easy to check if a particular value is in a set, which can be a slow operation if an array is used.</li>
+
+            <li>A set can be converted into an array by placing the set, along with the spread operator directly inside an array literal.</li>
+              
+            <li>Maps are a convenient way of keeping a list of key and value pairs, 
+                and are like 'hashes', or 'hash tables' or 'dictionaries' in other programming languages. 
+                At first glance, maps appear to be like JavaScript objects, but they have some noticeable differences:</li>
+
+              <ul>
+
+                <li>Objects are limited to using strings for key values, whereas maps can use any data type as a key.</li>
+
+                <li>There is no efficient way to find the number of key-value pairs an object has, whereas this is easy to do with maps using the size property.</li>
+
+                <li>Objects have methods that can be called and prototypes that can be used to create a chain of inheritance,
+                     whereas maps are solely focused on the storage and retrieval of key-value pairs.</li>
+
+                <li>The value of an object's properties can be accessed directly, whereas maps restrict you to using the get() method to retrieve any values.</li>
+
+              </ul>
+
+
+          </ul>
+
+        </ul>
+
+      <li><h3>Ch4: Functions</h3></li>
+        
+        <ul>
+
+          <li><a href="quizNinja3.html">Quiz Ninja Project 3</a></li>
+
+          <li>Some thinks I want to remember about this chapter:</li>
+
+            <ul>
+
+              <li>A function is a chunk of code that can be referenced by a name, and is almost like a small, self-contained mini program. 
+                Functions can help reduce repetition and make code easier to follow.</li>
+              
+              <li>To define a function literal, we can use a function declaration, or create a function expression, this assigns an anonymous function to a variable. 
+                A function can also be declared using the constructor Function(). The body of the function is entered as a string. 
+                It's not recommended to declare functions in this way as there are numerous problems associated with placing the function body inside a string.</li>
+
+              <li>Parameters and arguments are terms that are often used interchangeably to represent values provided for the function as an input. 
+                There is a subtle difference though: any parameters a function needs are set when the function is defined. 
+                When a function is invoked, it is provided with arguments.</li>
+
+              <li>ES6 introduced a new syntax for declaring functions called the arrow syntax. 
+                These make declaring functions much more succinct by using less verbose syntax. 
+                Arrow functions can be identified by the 'arrow' symbol, => that gives them their name. 
+                The parameters come before the arrow and the main body of the function comes after. 
+                Arrow functions are always anonymous, so if you want to refer to them, you must assign them to a variable.</li>
+
+              <li>Functions can also be given as a parameter to another function. A function that is passed as an argument to another is known as a callback. 
+                We can make a function more flexible by adding a callback parameter, 
+                this means that in the parenthesis if the function we add “callback”, 
+                and we also need to call the callback function on the “body” of the function as callback(), 
+                then when using our function we can add as a parameter another function 
+                that will be used where the callback function was added in the “body” of our function.</li>
+
+            </ul>
+
+        </ul>
+        
     </ul>
+    <button class="button" onclick="location.href='https://annmi-diva.github.io/WDD330/'" type="button">Table of Content</button>
   </body>
 </html>
